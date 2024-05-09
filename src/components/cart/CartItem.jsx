@@ -4,7 +4,7 @@ function CartItem({ book, onAddToBasket, onRemoveItemFromBasket, onRemove }) {
     <tr>
       <td>
         <div className="basket-item-detail">
-          <img src={`../../src/${book.image}`} alt="" />
+          <img src={`../../${book.image}`} alt="" />
 
           <div className="book-data">
             <h1>{book.title}</h1>
