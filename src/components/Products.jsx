@@ -27,7 +27,7 @@ Products.propTypes = {
 function Product({ book, onAddToBasket }) {
   return (
     <div className="product">
-      <img src={`../../src/${book.image}`} alt="" />
+      <img src={`../../${book.image}`} alt="" />
       <div className="book-detail">
         <div className="main-information">
           <h4>{book.title.slice(0, 10)}</h4>
