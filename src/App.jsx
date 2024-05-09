@@ -95,6 +95,7 @@ export default function App() {
       );
       return;
     }
+    handleFinalRemoveFromBasket(product);
   }
 
   return (
